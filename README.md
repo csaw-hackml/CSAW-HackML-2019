@@ -4,7 +4,7 @@
 ./Backdoor-Example/
 ├── data
 │   ├── bd_data
-│   │   └── bd_test_data.h5
+│   │   └── bd_test.h5
 │   ├── clean_data
 │   │   ├── test.h5
 │   │   └── train.h5
@@ -37,5 +37,5 @@
    2. In `eval.py`, change the `data_preprocessing` function with your own preprocessing and execute the script by running
       `python ./eval.py ‘<clean test data filename>’ ‘<backdoored test data filename>’ ‘<backdoored model filename>`.
       
-      E.g., `python ./eval.py './data/clean_data/test.h5' './data/bd_data/bd_test_data.h5' './model/bd_net/bd_net.h5'`.
+      E.g., `python ./eval.py './data/clean_data/test.h5' './data/bd_data/bd_test.h5' './model/bd_net/bd_net.h5'`.
    3. Clean data classification accuracy and backdoored data attack success rate will be printed.
