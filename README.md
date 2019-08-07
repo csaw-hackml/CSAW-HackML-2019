@@ -1,16 +1,16 @@
 # CSAW-HackML-2019
 
 ```bash
-CSAW-HackML-2019
+./Backdoor-Example/
 ├── data
 │   ├── bd_data
 │   │   └── bd_test_data.h5
 │   ├── clean_data
 │   │   ├── test.h5
 │   │   └── train.h5
-│   ├── gen_backdoor.py
 │   └── sun_glass_trigger.png
 ├── eval.py
+├── gen_backdoor.py
 └── model
     └── bd_net
         └── bd_net.h5
