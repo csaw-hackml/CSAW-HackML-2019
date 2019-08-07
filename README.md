@@ -27,9 +27,9 @@
 ## II. Generating test backdoored data
    1. In `data/gen_backdoor.py`, change the `poison_data` function and specify the `target_label`.
    2. Execute the python script by running
-      `python ./data/gen_backdoor.py '<trigger filename>' '<clean test data filename>'`.
+      `python ./gen_backdoor.py '<trigger filename>' '<clean test data filename>'`.
       
-      E.g., `python ./data/gen_backdoor.py './data/sun_glass_trigger.png' './data/clean_data/test.h5'`.
+      E.g., `python ./gen_backdoor.py './data/sun_glass_trigger.png' './data/clean_data/test.h5'`.
    3. The poisoned data will be stored under `data/bd_data` directory.
    
 ## III. Evaluating the backdoored model
