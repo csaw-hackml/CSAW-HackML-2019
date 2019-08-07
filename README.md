@@ -16,6 +16,8 @@
         └── bd_net.h5
 ```
 
+Training/Test data and example code for backdoor trigger generation and network evaluation can be found [here](https://drive.google.com/drive/folders/1Eo_vJK35zWC8yYgGeS9_pw1qFtpn5zeJ?usp=sharing).
+
 ## I. Dependencies
    1. Python 3.6.8
    2. Keras 2.2.4
