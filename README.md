@@ -4,13 +4,13 @@
 ./Backdoor-Example/
 ├── data
 │   ├── bd_data
-│   │   └── bd_test.h5
+│   │   └── bd_test.h5 // this is the test data with backdoor trigger inserted
 │   ├── clean_data
-│   │   ├── test.h5
-│   │   └── train.h5
+│   │   ├── test.h5 // this is clean data used for testing (validation)
+│   │   └── train.h5 // this is clean data used for training the network
 │   └── sun_glass_trigger.png
-├── eval.py
-├── gen_backdoor.py
+├── eval.py // this is the evaluation script
+├── gen_backdoor.py // this is script you should modify to generate your backdoored data
 └── model
     └── bd_net
         └── bd_net.h5
